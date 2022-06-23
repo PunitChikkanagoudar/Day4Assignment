@@ -1,0 +1,23 @@
+public class EmpWageBuilderCase {
+   public static final int IS_PART_TIME = 1;
+   public static inal int IS_FULL_TIME = 2;
+   public static final int EMP_RATE_PER_HOUR = 20;
+
+   public static void main(String [] ags) {
+int empHrs = 0;
+int empWage = 0;
+int empCheck = (int) Math.floor(Math.random() * 10) % 3;
+switch (empCheck) {
+   case is_part_time;
+     empHrs = 4;
+     break;
+   case IS_FULL_TIME;
+     empHrs = 8;
+     break;
+   default:
+     empHs = 0;
+    }
+    empWage = empHrs * EMP_RATE-PER_HOUR;
+    System.out.println("Emp Wage: " + empWage);
+   }
+  }
